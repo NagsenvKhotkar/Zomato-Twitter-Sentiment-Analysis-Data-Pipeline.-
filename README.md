@@ -6,7 +6,7 @@ This project provides valuable customer sentiment insights for Zomato, a popular
 
 Due to recent restrictions imposed on the Twitter API, we've adopted a scraping strategy using Selenium. The pipeline is scheduled to scrape tweets daily, specifically targeting those mentioning Zomato. These tweets are then processed, analyzed, and stored in AWS Redshift, followed by a sentiment analysis to evaluate customer sentiments. The final output is a dashboard reflecting customer sentiment trends over the preceding seven weeks.
 
-🔮 Sneak Peek at Our Architectural Blueprint!
+🔮 Sneak Peek at Our Architectural Blueprint! 
 
 ![Architecture](https://imgur.com/A5jBo0p.png)
 
